@@ -1,0 +1,90 @@
+.home-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px 50px;
+}
+
+.home-hero {
+  text-align: center;
+  padding: 70px 10px 50px;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.home-hero h1 {
+  font-size: 44px;
+  line-height: 1.15;
+  margin: 0;
+  font-weight: 800;
+}
+
+.home-hero h1 span {
+  background: linear-gradient(
+    90deg,
+    #7c3aed,
+    #ec4899
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-hero p {
+  max-width: 600px;
+  margin: 22px auto 30px;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.home-hero ion-button {
+  --border-radius: 14px;
+  height: 54px;
+  font-weight: 700;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.feature-card {
+  padding: 22px;
+  border-radius: 18px;
+  background: var(--ion-card-background);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+}
+
+.feature-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.feature-card h3 {
+  margin: 0 0 8px;
+}
+
+.feature-card p {
+  margin: 0;
+  color: var(--ion-color-medium);
+  line-height: 1.5;
+}
+
+@media (max-width: 650px) {
+
+  .home-hero {
+    padding-top: 40px;
+  }
+
+  .home-hero h1 {
+    font-size: 34px;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
