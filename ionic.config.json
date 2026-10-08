@@ -1,0 +1,7 @@
+{
+  "name": "PromoAI",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
